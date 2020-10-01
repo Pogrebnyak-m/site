@@ -1,0 +1,22 @@
+body {
+	position: relative;
+	width: 563px;
+	height: 282px;
+	background-color: #303030;
+	margin: 0;
+	
+}
+.image1{
+  object-fit: cover;
+  width: 100vw;
+}
+
+.font1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.font2 {
+	font-family: 'Kotta One', serif;
+
+}
