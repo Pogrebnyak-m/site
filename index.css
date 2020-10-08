@@ -1,0 +1,296 @@
+body {
+	position: relative;
+	width: 564px;
+	height: 1054px;
+	background-color: #303030;
+	margin: 0;	
+}
+.image1{
+  object-fit: cover;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/*.image2 {
+	object-fit: cover;
+	width: 38vw;
+	position: absolute;
+	top: 0%;
+	left: 165%;
+}*/
+
+.image3 {
+	object-fit: cover;
+	width: 4vw;
+	position: absolute;
+	top: 34%;
+	left: 2;
+}
+
+.image4 {
+	object-fit: cover;
+	width: 4vw;
+	position: absolute;
+	top: 34%;
+	left: 250%;
+}
+
+.image5 {
+	object-fit: cover;
+	width: 10vw;
+	position: absolute;
+	top: 3%;
+	left: 170%;
+}
+
+.about {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 190%;
+	position: absolute;
+	top: 3%;
+	left: 179%;
+	transition: background-color .1s linear, color .1s linear;
+}
+	.about a:hover {
+		background-color: rgba(196, 196, 196, 0.3);
+	}
+	.about a:active{
+		background-color: rgba(111, 115, 115, 0.3);
+	}
+	.about a:visited {
+		color: #FFFFFF;
+	}
+	
+
+.pys {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 190%;
+	position: absolute;
+	top: -5px;
+	left: 200%;
+	transition: background-color .1s linear, color .1s linear;
+	white-space: pre;
+}
+	.pys a:hover {
+		background-color: rgba(196, 196, 196, 0.3);
+	}
+	.pys a:active{
+		background-color: rgba(111, 115, 115, 0.3);
+	}
+	.pys a:visited{
+		color: #FFFFFF;
+	}
+
+.wo {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 190%;
+	position: absolute;
+	top: 47px;
+	left: 166%;
+	white-space: pre;
+}
+	.wo a:hover {
+	   background-color: rgba(196, 196, 196, 0.3);	
+	}
+	.wo a:active{
+	   background-color: rgba(111, 115, 115, 0.3);	
+	}
+	.wo a:visited{
+	   color: #FFFFFF;
+	}
+
+.sd {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 190%;
+	position: absolute;
+	top: 47px;
+	left: 199%;
+	white-space: pre;
+}
+	.sd a:hover {
+	   background-color: rgba(196, 196, 196, 0.3);
+	}
+	.sd a:active{
+	   background-color: rgba(111, 115, 115, 0.3);	
+	}
+	.sd a:visited{
+	   color: #FFFFFF;
+	}
+
+.heading {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 450%;
+	color: #FFFFFF;
+	position: absolute;
+	top: 20%;
+	left: 7%;
+	white-space: pre;
+}
+
+
+.ip {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 236%;
+	color: #FFFFFF;
+	position: absolute;
+	top: 24%;
+	left: 7%
+}
+
+
+.font2 {
+	font-family: 'Kotta One', serif;
+	font-size: 236%;
+	color: #FFFFFF;
+	position: absolute;
+	top: 82%;
+	left: 113%;
+	white-space: pre;
+}
+
+.line{
+	object-fit: cover;
+	width: 9vw;
+	position: absolute;
+	top: 87%;
+	left: 122%;
+}
+
+.font3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 236%;
+	color: #FFFFFF;
+	position: absolute;
+	top: 89%;
+	left: 84%;
+	white-space: pre;
+}
+
+.group2{
+	object-fit: cover;
+	width: 15vw;
+	position: absolute;
+	top: 98%;
+	left: 13%;
+}
+
+.group3{
+	object-fit: cover;
+	width: 15vw;
+	position: absolute;
+	top: 98%;
+	left: 63%;
+}
+
+.group4{
+	object-fit: cover;
+	width: 15vw;
+	position: absolute;
+	top: 98%;
+	left: 113%;
+}
+
+.group5{
+	object-fit: cover;
+	width: 15vw;
+	position: absolute;
+	top: 98%;
+	left: 163%;
+}
+
+.group6{
+	object-fit: cover;
+	width: 15vw;
+	position: absolute;
+	top: 98%;
+	left: 213%;
+}
+
+.text11{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 290%;
+	color: #FFFFFF;
+	position: absolute;
+	top: 135%;
+	left: 18%;
+	white-space: pre;
+	
+}
+
+.text12{
+	font-family: 'Kotta One', sans-serif;
+	font-size: 236%;
+	color: #FFFFFF;
+	position: absolute;
+	top: 156%;
+	left: 59%;
+	white-space: pre;
+}
+
+.group1{
+	object-fit: cover;
+	width: 17vw;
+	position: absolute;
+	top: 185%;
+	left: 205%;
+}
+
+.group8{
+	object-fit: cover;
+	width: 33vw;
+	position: absolute;
+	top: 207%;
+	left: 90%;
+}
+
+.group9{
+	object-fit: cover;
+	width: 95vw;
+	position: absolute;
+	top: 218%;
+	left: 0%;
+}
+
+.f1{
+	object-fit: cover;
+	width: 3vw;
+	position: absolute;
+	top: 250%;
+	left: 180%;
+}
+
+.f2{
+	object-fit: cover;
+	width: 3vw;
+	position: absolute;
+	top: 250%;
+	left: 200%;
+}
+
+.f3{
+	object-fit: cover;
+	width: 3vw;
+	position: absolute;
+	top: 250%;
+	left: 220%;
+}
+.f4{
+	object-fit: cover;
+	width: 100vw;
+	position: absolute;
+	top: 259%;
+}
