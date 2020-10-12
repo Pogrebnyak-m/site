@@ -26,24 +26,52 @@ body {
 	width: 4vw;
 	position: absolute;
 	top: 34%;
-	left: 2;
+	left: 3%;
 }
+img.image3{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
+/*img.image3:hover{
+	-moz-transform: scale(1.5);
+}*/
 
-.image4 {
+.image4{
 	object-fit: cover;
 	width: 4vw;
 	position: absolute;
 	top: 34%;
 	left: 250%;
 }
+img.image4{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
+/*img.image4:hover{
+	-moz-transform: scale(1.5);
+}*/
 
 .image5 {
 	object-fit: cover;
-	width: 10vw;
+	width: 2vw;
 	position: absolute;
-	top: 3%;
-	left: 170%;
+	top: 9%;
+	left: 245%;
 }
+img.image5{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
+img.image5:hover{
+	-moz-transform: scale(1.5);
+}
+
 
 .about {
 	color: #FFFFFF;
@@ -51,9 +79,9 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 190%;
-	position: absolute;
-	top: 3%;
-	left: 179%;
+	position: fixed;
+	top: 4%;
+	left: 67%;
 	transition: background-color .1s linear, color .1s linear;
 }
 	.about a:hover {
@@ -73,11 +101,11 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 190%;
-	position: absolute;
-	top: -5px;
-	left: 200%;
+	position: fixed;
+	top: 4%;
+	left: 78%;
 	transition: background-color .1s linear, color .1s linear;
-	white-space: pre;
+	
 }
 	.pys a:hover {
 		background-color: rgba(196, 196, 196, 0.3);
@@ -95,10 +123,10 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 190%;
-	position: absolute;
-	top: 47px;
-	left: 166%;
-	white-space: pre;
+	position: fixed;
+	top: 10%;
+	left: 67%;
+	
 }
 	.wo a:hover {
 	   background-color: rgba(196, 196, 196, 0.3);	
@@ -116,10 +144,10 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 190%;
-	position: absolute;
-	top: 47px;
-	left: 199%;
-	white-space: pre;
+	position: fixed;
+	top: 10%;
+	left: 81%;
+	
 }
 	.sd a:hover {
 	   background-color: rgba(196, 196, 196, 0.3);
@@ -187,6 +215,12 @@ body {
 	top: 98%;
 	left: 13%;
 }
+img.group2{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
 
 .group3{
 	object-fit: cover;
@@ -195,7 +229,12 @@ body {
 	top: 98%;
 	left: 63%;
 }
-
+img.group3{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
 .group4{
 	object-fit: cover;
 	width: 15vw;
@@ -203,13 +242,24 @@ body {
 	top: 98%;
 	left: 113%;
 }
-
+img.group4{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
 .group5{
 	object-fit: cover;
 	width: 15vw;
 	position: absolute;
 	top: 98%;
 	left: 163%;
+}
+img.group5{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
 }
 
 .group6{
@@ -218,6 +268,12 @@ body {
 	position: absolute;
 	top: 98%;
 	left: 213%;
+}
+img.group6{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
 }
 
 .text11{
@@ -248,6 +304,12 @@ body {
 	top: 185%;
 	left: 205%;
 }
+img.group1{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
 
 .group8{
 	object-fit: cover;
@@ -272,6 +334,12 @@ body {
 	top: 250%;
 	left: 180%;
 }
+img.f1{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
 
 .f2{
 	object-fit: cover;
@@ -280,6 +348,12 @@ body {
 	top: 250%;
 	left: 200%;
 }
+img.f2{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
 
 .f3{
 	object-fit: cover;
@@ -287,6 +361,12 @@ body {
 	position: absolute;
 	top: 250%;
 	left: 220%;
+}
+img.f3{
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
 }
 .f4{
 	object-fit: cover;
