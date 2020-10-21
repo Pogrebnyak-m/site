@@ -5,11 +5,58 @@ body {
 	background-color: #303030;
 	margin: 0;	
 }
+.home{
+	box-sizing: border-box;
+	width: 100vw;
+	max-height: 100vh;
+	background: url(assets/Rectangle%204.svg) center/cover no-repeat;
+	overflow: hidden;
+	position: relative;
+}
+.home::before{
+	content: "";
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.video{
+	position: relative;
+	z-index: 1;
+	padding-bottom: 56.25%;
+}
+.video_media{
+	width: 100vw;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+.content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+/*.mask:afetr{
+	content: "";
+	display: block;
+	position: absolute;
+	background-color: 
+}*/
+
 .image1{
   object-fit: cover;
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
+  box-sizing: content-box;
 }
 
 
@@ -21,7 +68,7 @@ body {
 	left: 165%;
 }*/
 
-.image3 {
+/*не функционально.image3 {
 	object-fit: cover;
 	width: 4vw;
 	position: absolute;
@@ -33,24 +80,24 @@ img.image3{
 	-webkit-transition:all 1s ease;
 	-o-transition:all 1s ease;
 	transition: all 1s ease;
-}
+}не функционально*/
 /*img.image3:hover{
 	-moz-transform: scale(1.5);
 }*/
 
-.image4{
+/*не функционально.image4{
 	object-fit: cover;
 	width: 4vw;
 	position: absolute;
 	top: 34%;
-	left: 250%;
+	left: 93%;
 }
 img.image4{
 	-moz-transition:all 1s ease;
 	-webkit-transition:all 1s ease;
 	-o-transition:all 1s ease;
 	transition: all 1s ease;
-}
+}не функционально*/
 /*img.image4:hover{
 	-moz-transform: scale(1.5);
 }*/
@@ -59,8 +106,8 @@ img.image4{
 	object-fit: cover;
 	width: 2vw;
 	position: absolute;
-	top: 9%;
-	left: 245%;
+	top: 11%;
+	left: 92%;
 }
 img.image5{
 	-moz-transition:all 1s ease;
@@ -161,22 +208,27 @@ img.image5:hover{
 
 .heading {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 450%;
+	font-size: 5rem;
+	width: 100%;
 	color: #FFFFFF;
 	position: absolute;
+	left: 2%;
 	top: 20%;
-	left: 7%;
-	white-space: pre;
+	/*white-space: pre;
+	margin: 0;*/
+	/*text-align: center;*/
+	/*background-color: rgba(8, 7, 7, 0.34);*/
 }
 
 
 .ip {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 236%;
+	font-size: 3rem;
+	width:100%;
 	color: #FFFFFF;
 	position: absolute;
-	top: 24%;
-	left: 7%
+	top: 30%;
+	left: 2%
 }
 
 
@@ -185,7 +237,7 @@ img.image5:hover{
 	font-size: 236%;
 	color: #FFFFFF;
 	position: absolute;
-	top: 82%;
+	top: 87%;
 	left: 113%;
 	white-space: pre;
 }
@@ -194,7 +246,7 @@ img.image5:hover{
 	object-fit: cover;
 	width: 9vw;
 	position: absolute;
-	top: 87%;
+	top: 93%;
 	left: 122%;
 }
 
@@ -203,7 +255,7 @@ img.image5:hover{
 	font-size: 236%;
 	color: #FFFFFF;
 	position: absolute;
-	top: 89%;
+	top: 96%;
 	left: 84%;
 	white-space: pre;
 }
@@ -212,7 +264,7 @@ img.image5:hover{
 	object-fit: cover;
 	width: 15vw;
 	position: absolute;
-	top: 98%;
+	top: 107%;
 	left: 13%;
 }
 img.group2{
@@ -226,7 +278,7 @@ img.group2{
 	object-fit: cover;
 	width: 15vw;
 	position: absolute;
-	top: 98%;
+	top: 107%;
 	left: 63%;
 }
 img.group3{
@@ -239,7 +291,7 @@ img.group3{
 	object-fit: cover;
 	width: 15vw;
 	position: absolute;
-	top: 98%;
+	top: 107%;
 	left: 113%;
 }
 img.group4{
@@ -252,7 +304,7 @@ img.group4{
 	object-fit: cover;
 	width: 15vw;
 	position: absolute;
-	top: 98%;
+	top: 107%;
 	left: 163%;
 }
 img.group5{
@@ -266,7 +318,7 @@ img.group5{
 	object-fit: cover;
 	width: 15vw;
 	position: absolute;
-	top: 98%;
+	top: 107%;
 	left: 213%;
 }
 img.group6{
@@ -276,7 +328,7 @@ img.group6{
 	transition: all 1s ease;
 }
 
-.text11{
+/*.text11{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 290%;
 	color: #FFFFFF;
@@ -295,14 +347,14 @@ img.group6{
 	top: 156%;
 	left: 59%;
 	white-space: pre;
-}
+}*/
 
 .group1{
 	object-fit: cover;
 	width: 17vw;
 	position: absolute;
-	top: 185%;
-	left: 205%;
+	top: 193%;
+	left: 203%;
 }
 img.group1{
 	-moz-transition:all 1s ease;
@@ -315,7 +367,7 @@ img.group1{
 	object-fit: cover;
 	width: 33vw;
 	position: absolute;
-	top: 207%;
+	top: 211%;
 	left: 90%;
 }
 
@@ -323,7 +375,7 @@ img.group1{
 	object-fit: cover;
 	width: 95vw;
 	position: absolute;
-	top: 218%;
+	top: 220%;
 	left: 0%;
 }
 
@@ -331,7 +383,7 @@ img.group1{
 	object-fit: cover;
 	width: 3vw;
 	position: absolute;
-	top: 250%;
+	top: 252%;
 	left: 180%;
 }
 img.f1{
@@ -345,7 +397,7 @@ img.f1{
 	object-fit: cover;
 	width: 3vw;
 	position: absolute;
-	top: 250%;
+	top: 252%;
 	left: 200%;
 }
 img.f2{
@@ -359,7 +411,7 @@ img.f2{
 	object-fit: cover;
 	width: 3vw;
 	position: absolute;
-	top: 250%;
+	top: 252%;
 	left: 220%;
 }
 img.f3{
@@ -372,5 +424,5 @@ img.f3{
 	object-fit: cover;
 	width: 100vw;
 	position: absolute;
-	top: 259%;
+	top: 261%;
 }
