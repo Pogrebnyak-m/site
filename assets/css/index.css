@@ -1,13 +1,9 @@
-*{
-/* 	position: relative; */
-/* 	width: 564px;
-	height: 1054px; */
-	padding:0;
+body{
+	position: relative;
+	width: 564px;
+	height: 1054px;
 	background-color: #303030;
 	margin: 0;
-	list-style: none;
-	text-decoration: none;
-	flex-wrap: wrap;
 }
 .home{
 	box-sizing: border-box;
