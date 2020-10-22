@@ -5,7 +5,7 @@ body{
 	background-color: #303030;
 	margin: 0;
 }
-.home{
+/* .home{
 	box-sizing: border-box;
 	width: 100vw;
 	max-height: 100vh;
@@ -22,7 +22,7 @@ body{
 	top: 0;
 	left: 0;
 	z-index: 2;
-}
+} */
 .video{
 	position: relative;
 	z-index: 1;
