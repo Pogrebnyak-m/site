@@ -1,9 +1,13 @@
-body {
-	position: relative;
-	width: 564px;
-	height: 1054px;
+*{
+/* 	position: relative; */
+/* 	width: 564px;
+	height: 1054px; */
+	padding:0;
 	background-color: #303030;
-	margin: 0;	
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	flex-wrap: wrap;
 }
 .home{
 	box-sizing: border-box;
