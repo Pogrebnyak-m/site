@@ -273,6 +273,14 @@ img.group2{
 	-o-transition:all 1s ease;
 	transition: all 1s ease;
 }
+div{
+	width:100%;
+	text-align: center;
+}
+div img{
+	width: 100%;
+	height: auto;
+}
 
 .group3{
 	object-fit: cover;
