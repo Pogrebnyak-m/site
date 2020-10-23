@@ -9,7 +9,7 @@ body{
 	box-sizing: border-box;
 	width: 100vw;
 	max-height: 100vh;
-	background: url(assets/Rectangle%204.svg) center/cover no-repeat;
+	background: url(assets/images/Rectangle%204.svg.svg) center/cover no-repeat;
 	overflow: hidden;
 	position: relative;
 }
