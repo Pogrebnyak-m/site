@@ -183,7 +183,7 @@ img:active{
 	padding-right: 40px;
 	padding-bottom: 35px;
 	box-sizing: border-box;
-	background: url(./assets/bysea.svg) no-repeat;
+	background: url(assets/images/bysea.svg) no-repeat;
 	background-size: cover;
 	display: block;
 	/*flex-direction: column;*/
@@ -193,16 +193,16 @@ img:active{
 	-o-transition: 2s;
 }
 .content_link:nth-child(2){
-	background-image: url(./assets/byair.svg);
+	background-image: url(assets/images/byair.svg);
 }
 .content_link:nth-child(3){
-	background-image: url(./assets/gettingaround.svg);
+	background-image: url(assets/images/gettingaround.svg);
 }
 .content_link:nth-child(4){
-	background-image: url(./assets/touroperators.svg);
+	background-image: url(assets/images/touroperators.svg);
 }
 .content_link:nth-child(5){
-	background-image: url(./assets/accommodation.svg);
+	background-image: url(assets/images/accommodation.svg);
 }
 .content_link--pt{
 	padding-top: 82.2%;
@@ -231,7 +231,7 @@ img:active{
 }
 	/*2-Я ЧАСТЬ*/
 .holder{
-	background: url("./assets/travelinf.svg") center top no-repeat;
+	background: url("assets/images/travelinf.svg") center top no-repeat;
 	background-size: cover;
 }
 .holder_info{
@@ -281,7 +281,7 @@ img:active{
 }
 	/*FOOTER*/
 .footer{
-	background: url("./assets/footer.svg") center top no-repeat;
+	background: url("assets/images/footer.svg") center top no-repeat;
 	background-size: cover;
 }
 .footer_info{
@@ -350,16 +350,6 @@ img:active{
 	background-color: rgba(111, 115, 115, 0.3);
 }
 
-/*@media (max-width: 992px) {
-  .video {
-    background: url(assets/Rectangle%204.svg) center/cover no-repeat
-    background-size: cover;
-  }
- 
-  .video .video-media {
-    display: none;
-  }
-}*/
 
 @media (max-width: 1280px) {
 	.header_title{
@@ -471,7 +461,7 @@ img:active{
 
 @media (max-width: 768px){
 	.container {
-    background: url(./assets/Rectangle%204.svg) center top no-repeat;
+    background: url(assets/images/Rectangle%204.svg) center top no-repeat;
     background-size: cover;
   	}
   	.container video {
