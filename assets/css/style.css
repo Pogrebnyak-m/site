@@ -183,7 +183,7 @@ img:active{
 	padding-right: 40px;
 	padding-bottom: 35px;
 	box-sizing: border-box;
-	background: url("../images/bysea.svg") no-repeat;
+	background: url("images/bysea.svg") no-repeat;
 	background-size: cover;
 	display: block;
 	/*flex-direction: column;*/
