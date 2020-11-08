@@ -461,7 +461,7 @@ img:active{
 
 @media (max-width: 768px){
 	.container {
-    background: url("../images/Rectangle%204.svg") center top no-repeat;
+    background: url("../images/Rectangle%204.svg") center center / cover no-repeat;
     background-size: cover;
     height: auto;
   	}
