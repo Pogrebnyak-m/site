@@ -112,6 +112,7 @@ a{
 
 .menu_link{
 	color: #FFFFFF;
+	transition-duration: 1s;
 }
 .menu_link:hover{
 	background-color: rgba(196, 196, 196, 0.3);
@@ -342,12 +343,16 @@ img:active{
 	margin-left: 100px;
 	margin-bottom: 30px;
 	margin-top: 30px;
+	transition-duration: 1s;
 }
 .socials_svg:hover{
 	background-color: rgba(196, 196, 196, 0.3); 
+	border-radius: 10px;
+	transition: 1s;
 }
 .socials_svg:active{
 	background-color: rgba(111, 115, 115, 0.3);
+	border-radius: 10px;
 }
 
 
